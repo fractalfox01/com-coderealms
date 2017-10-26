@@ -5,35 +5,16 @@ import sandbox.Sandbox;
 import java.lang.reflect.Array;
 import java.net.ServerSocket;
 import java.util.*;
-
+import networktoolkit.*;
 
 public class CodeRealmsMain {
 
     public static void main(String[] args){
 
-        int count = 0;
-        int[] a = {1,3,5};
-        int[] b = {1,2,3,4,5};
 
-        for (int i=0;i<a.length;i++){
-            for (int j=0;j<b.length;j++){
-                if (a[i] == b[j]){
-                    count++;
-                }
-            }
-        }
-        int[] c = new int[count];
+        NetworkAppMain network = new NetworkAppMain();
 
-        for (int k=0;k<a.length;k++){
-            for (int l=0;l< (b.length);l++){
-                if (Integer.compare(a[k], b[l]) == 0){
-                    c[k] = b[l];
-                }
-            }
-        }
-        for (int i: c){
-            System.out.println("final --> " + i);
-        }
+
 //       Scanner scan = new Scanner(System.in);
 //        System.out.println("enter the year: ");
 //        for (String temp : getYearData(scan.nextLine())){

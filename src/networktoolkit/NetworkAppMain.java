@@ -12,7 +12,6 @@ import java.util.Scanner;
 
 public class NetworkAppMain extends Application {
 
-
     public static void main(String[] args) {
         launch(args);
         System.out.println("hello");
@@ -21,7 +20,6 @@ public class NetworkAppMain extends Application {
 
     public NetworkAppMain() {
         System.out.println(this.getClass().getSimpleName() + " instance is null\n");
-        //launch();
     }
 
     @Override
