@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/com.coderealms.iml" filepath="$PROJECT_DIR$/com.coderealms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.coderealms.help/com.coderealms.help.iml" filepath="$PROJECT_DIR$/com.coderealms.help/com.coderealms.help.iml" />
+    </modules>
+  </component>
+</project>
