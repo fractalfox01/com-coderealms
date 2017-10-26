@@ -18,6 +18,7 @@ public class NetworkAppMain extends Application {
     }
 
 
+
     public NetworkAppMain() {
         System.out.println(this.getClass().getSimpleName() + " instance is null\n");
     }
