@@ -29,7 +29,7 @@ public class NetworkAppMain extends Application {
 
         // Acceptable Titles are ( "Start" , "Converter", "Creator" ).
 
-        NetworkAppWindowTemplate firstTest = new NetworkAppWindowTemplate(primaryStage, "Start");
+        NetworkAppWindowTemplate firstTest = new NetworkAppWindowTemplate(primaryStage, "START");
     }
 
 
