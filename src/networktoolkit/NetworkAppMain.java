@@ -10,22 +10,26 @@ import javafx.event.*;
 
 import java.util.Scanner;
 
+/**
+ * This is the Main Entry point for all Classes contained within networktoolkit
+ * Basically, what's going on here is:
+ *      right now, this is in an extreme testing phase. If instantiating NetworkAppWindowTemplate through TWO parameters
+ *      the environment of the application (i.e. layout) if decided through if...else... statements.
+ *      these need to eventually point to their specific classes ( maybe, idk yet... bad design? ).
+ *      Future: --> An Interface still needs to be written for NetworkAppWindowTemplate to implement.
+ */
 public class NetworkAppMain extends Application {
 
     public static void main(String[] args) {
         launch(args);
-        System.out.println("hello");
-    }
-
-
-
-    public NetworkAppMain() {
-        System.out.println(this.getClass().getSimpleName() + " instance is null\n");
     }
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        NetworkAppWindowTemplate newWindow = new NetworkAppWindowTemplate(primaryStage, "Does it work?");
+
+        // Acceptable Titles are ( "Start" , "Converter", "Creator" ).
+
+        NetworkAppWindowTemplate firstTest = new NetworkAppWindowTemplate(primaryStage, "Start");
     }
 
 
