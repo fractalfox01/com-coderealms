@@ -19,14 +19,14 @@ NetworkAppWindowTemplate {
      * Setting up the objects that I'll be using for the testing phase.
      *
      */
-    BorderPane mainFrame;
-    Button button1;
-    Button button2;
-    HBox header;
-    VBox verticalBody;
-    BorderPane body;
-    Label lblHeader;
-    Scene scene;
+    private BorderPane mainFrame;
+    private Button button1;
+    private Button button2;
+    private HBox header;
+    private VBox verticalBody;
+    private BorderPane body;
+    private Label lblHeader;
+    private Scene scene;
 
     public NetworkAppWindowTemplate(Stage primaryStage){
 
